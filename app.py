@@ -3064,7 +3064,7 @@ def render_sidebar(cfg: Dict[str, Any]) -> None:
 
 def main() -> None:
     st.set_page_config(
-        page_title="PaperNexus+ 文献检索工作台",
+        page_title="PaperNexus 文献检索工作台",
         page_icon="📚",
         layout="wide",
         initial_sidebar_state="expanded",
@@ -3072,7 +3072,7 @@ def main() -> None:
     init_state()
     cfg = st.session_state["cfg"]
 
-    st.title("📚 PaperNexus+ 文献检索工作台")
+    st.title("📚 PaperNexus 文献检索工作台")
     st.caption(
         "大模型负责理解问题与生成检索意图，程序负责调用各文献库，"
         "模型再参与重排与摘要。所有密钥只存本机。"
