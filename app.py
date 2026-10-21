@@ -3027,7 +3027,7 @@ def render_export_tab(cfg: Dict[str, Any]) -> None:
 
 def render_sidebar(cfg: Dict[str, Any]) -> None:
     with st.sidebar:
-        st.markdown("## PaperSeek+")
+        st.markdown("## PaperNexus")
         st.caption("自然语言 → 多库文献检索 → LLM 重排 → Excel")
 
         llm_ok = bool(cfg["llm"].get("base_url") and cfg["llm"].get("model"))
