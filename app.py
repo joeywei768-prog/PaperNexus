@@ -4,7 +4,7 @@
 paper_seek_plus / app.py
 ========================
 
-PaperNexus 改进版：一个 Streamlit 的"自然语言 -> 多库文献检索 -> LLM 重排 -> Excel"
+PaperNexus ：一个 Streamlit 的"自然语言 -> 多库文献检索 -> LLM 重排 -> Excel"
 工作台。
 
 设计思想（提炼自 PaperSeek，但不复制其代码）
